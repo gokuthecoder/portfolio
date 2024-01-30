@@ -1,0 +1,121 @@
+.heading {
+    margin-block: 1rem;
+    margin-top: 2rem;
+}
+
+.container__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    text-align: center !important;
+}
+
+.main__box {
+    display: flex;
+    gap: 3rem;
+    max-width: 1080px;
+    margin-inline: auto;
+}
+
+
+
+.profile__photo {
+    min-width: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.profile__photo>img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content__box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-inline: 20px;
+}
+
+.wrap__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.experience {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1.5rem;
+    padding-inline: 1.75rem;
+    flex-direction: column;
+    border-radius: 2rem;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.education {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1.5rem;
+    padding-inline: 1.75rem;
+    flex-direction: column;
+    border-radius: 2rem;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+.paragraph {
+    text-align: left;
+}
+
+
+
+@media (max-width:900px) {
+    .main__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap !important;
+    }
+
+    .content__box {
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    
+    .wrap__box {
+        flex-wrap: wrap;
+    }
+
+    .content__box {
+        padding-inline: 3px;
+    }
+}
+
+.about__para {
+    background-color: rgba(138, 139, 135, 0.06);
+    padding: 12px;
+    margin: 12px;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
