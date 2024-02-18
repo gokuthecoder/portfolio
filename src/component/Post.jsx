@@ -1,5 +1,10 @@
-import './Post.css'
-import { Helmet } from 'react-helmet';
+import * as React from 'react';
+import "./Post.css"
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function Post() {
 
@@ -18,34 +23,38 @@ export default function Post() {
         },
     ];
 
-    // Additional projects can be added as needed
-
-
     return (
         <>
-            < Helmet >
-                <title>project collection</title>
-            </Helmet >
             <div className="post__collection">
                 {
-                    projects?.map((element) => (
-                        <div className="outer__box">
-                            <div className="inner__box">
-                                <img src={element.image_url} alt="" className='image__url' />
-                            </div>
-                            <div className='content_box'>
-                                <p >{element.title}</p>
-                                <div className="btn__group">
-                                    <a href={element.repo_url}>Project</a>
-                                    {/* <a href={element.demo_url}>Views</a> */}
-                                </div>
-                            </div>
-                        </div>
+                    projects?.map((e, index) => (
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardActionArea>
+                                <CardMedia
+                                    component="img"
+                                    height="140"
+                                    image={e.image_url}
+                                    alt="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        {e.title}
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button size="small" color="primary">
+                                    <a href={e.repo_url}>repo link</a>
+                                </Button>
+                            </CardActions>
+                        </Card>
                     ))
                 }
             </div>
         </>
-    )
+    );
 }
-
-
