@@ -5,10 +5,10 @@ import Footer from "../Footer"
 export default function Master() {
     return (
         <>
-            {/* <div style={{ height: '100vh' }}> */}
+            <div style={{ height: '100vh' }}>
                 <NavBar />
                 <Outlet />
-            {/* </div> */}
+            </div>
             <Footer />
         </>
     )

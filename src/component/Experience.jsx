@@ -64,7 +64,7 @@ export default function Experiemce() {
                         <table>
                             <tr>
                                 <th>
-                                    <a href="VishalKumar_Resume.pdf" download='mr_vishal_kumar_resume.pdf' className='resume__downloads' style={{ boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px' }}>Download Resume</a>
+                                    <a href="mr.vishal kumar.pdf" download='mr_vishal_kumar_resume_gokuthecoder.pdf' className='resume__downloads' style={{ boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px' }}>Download Resume</a>
                                 </th>
                             </tr>
                         </table>
