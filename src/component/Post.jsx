@@ -13,13 +13,29 @@ export default function Post() {
             title: 'Torrent to Google Drive',
             image_url: 'https://i.ibb.co/JRg3gjS/mqdefault.jpg',
             repo_url: 'https://github.com/gokuthecoder/torrent_2_drive',
-            demo_url: 'https://netlify'
+            demo_url: 'https://netlify',
+            description: "Download torrent file and upload it, but in future add automation with telegram"
         },
         {
             title: 'Job Scout',
             image_url: 'https://i.ibb.co/JRg3gjS/mqdefault.jpg',
             repo_url: 'https://github.com/gokuthecoder/Job_scout',
-            demo_url: 'https://netlify'
+            demo_url: 'https://netlify',
+            description: "Job portal web application admin add job post , job seeker apply job"
+        },
+        {
+            title: 'Caption Bot',
+            image_url: 'https://i.ibb.co/JRg3gjS/mqdefault.jpg',
+            repo_url: 'https://github.com/gokuthecoder/Job_scout',
+            demo_url: 'https://netlify',
+            description: "This Caption Bot easy project ,add caption in any file, caption is file name"
+        },
+        {
+            title: 'Caption Bot',
+            image_url: 'https://i.ibb.co/JRg3gjS/mqdefault.jpg',
+            repo_url: 'https://github.com/gokubha/dark_forums_final',
+            demo_url: 'https://netlify',
+            description: "Forum web-applicatication, user able to add post and see post"
         },
     ];
 
@@ -41,8 +57,7 @@ export default function Post() {
                                         {e.title}
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
+                                        {e.description}
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
