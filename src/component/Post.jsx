@@ -42,7 +42,7 @@ export default function Post() {
             image_url: 'https://i.imgur.com/zQPEWQv.png',
             repo_url: 'https://github.com/gokuthecoder/portfolio',
             demo_url: 'https://netlify',
-            description: "Portfolio website"
+            description: "It highlights my professional journey and accomplishments, offering a glimpse into my capabilities and achievements."
         },
     ];
 
