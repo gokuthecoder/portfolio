@@ -38,11 +38,11 @@ export default function Post() {
             description: "Forum web-applicatication, user able to add post and see post, frontend is on way.."
         },
         {
-            title: 'Forum web application',
+            title: 'Portfolio website',
             image_url: 'https://i.imgur.com/zQPEWQv.png',
-            repo_url: 'https://github.com/gokuthecoder/forum_web_application',
+            repo_url: 'https://github.com/gokuthecoder/portfolio',
             demo_url: 'https://netlify',
-            description: "Portfolio websitewebsitewebsitewebsitewebsitewebsitewebsitewebsitewebsitewebsitewebsite "
+            description: "Portfolio website"
         },
     ];
 
