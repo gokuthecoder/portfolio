@@ -40,7 +40,7 @@ export default function Post() {
         },
         {
             title: 'Portfolio website',
-            image_url: 'https://i.imgur.com/zQPEWQv.png',
+            image_url: 'https://i.imgur.com/tCpowpJ.png',
             repo_url: 'https://github.com/gokuthecoder/portfolio',
             demo_url: 'https://netlify',
             description: "This is portfolio website, showcasing about projects and me as a budding websites."

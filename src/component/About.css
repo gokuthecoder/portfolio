@@ -32,7 +32,6 @@
     width: 100% !important;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px;
 }
 
 .content__box {

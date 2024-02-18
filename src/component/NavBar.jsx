@@ -34,7 +34,7 @@ export default function NavBar() {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         {/* <li><Link to='/contact'>contact</Link></li> */}
-                        {/* <li><Link to='/project'>pages</Link></li> */}
+                        <li><a href='https://gokuthecoder.hashnode.dev/' target="_blank">Blog</a></li>
                         <li><Link to='/experience'>Experinece</Link></li>
                     </ul>
                 </div>
