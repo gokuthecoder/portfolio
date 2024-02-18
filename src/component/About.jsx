@@ -2,6 +2,7 @@ import { SlBadge } from "react-icons/sl";
 import { FaUserGroup } from "react-icons/fa6";
 import './About.css'
 import { Helmet } from "react-helmet";
+import Footer from "./Footer";
 
 export default function About() {
     return (

@@ -1,5 +1,6 @@
 import './Experience.css'
 import { Helmet } from 'react-helmet'
+import Footer from './Footer'
 
 export default function Experiemce() {
 
