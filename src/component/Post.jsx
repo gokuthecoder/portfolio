@@ -18,7 +18,7 @@ export default function Post() {
         },
         {
             title: 'Job Scout',
-            image_url: 'https://i.ibb.co/JRg3gjS/mqdefault.jpg',
+            image_url: 'https://i.imgur.com/Ty1SuuJ.png',
             repo_url: 'https://github.com/gokuthecoder/Job_scout',
             demo_url: 'https://netlify',
             description: "Job portal web application admin add job post , job seeker apply job"
@@ -31,9 +31,9 @@ export default function Post() {
             description: "This Caption Bot easy project ,add caption in any file, caption is file name"
         },
         {
-            title: 'Caption Bot',
-            image_url: 'https://i.ibb.co/JRg3gjS/mqdefault.jpg',
-            repo_url: 'https://github.com/gokubha/dark_forums_final',
+            title: 'Forum web application',
+            image_url: 'https://i.imgur.com/ZH5ZDn6.png',
+            repo_url: 'https://github.com/gokuthecoder/forum_web_application',
             demo_url: 'https://netlify',
             description: "Forum web-applicatication, user able to add post and see post"
         },
