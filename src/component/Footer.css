@@ -1,13 +1,12 @@
 footer {
     height: 70px;
     display: flex;
-    color: rgb(104, 180, 247);
+    color: aliceblue;
     align-items: center;
     background: #1e293b;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .copyright {

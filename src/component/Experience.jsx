@@ -71,6 +71,7 @@ export default function Experiemce() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

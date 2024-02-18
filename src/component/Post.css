@@ -4,12 +4,12 @@
 
 .post__collection {
     margin-top: 20px;
-    /* margin-bottom: 20px; */
-    /* height: 100vh; */
+    margin-bottom: 20px;
+    height: auto;
     /* padding-top: 70px;  */
     /* padding-bottom: 50px; */
-    width: 100%;
-    max-width: 1240px;
+    /* width: 100%; */
+    /* max-width: 1240px; */
     margin-inline: auto;
     /* padding-inline: 200px; */
     gap: 3rem;

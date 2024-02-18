@@ -9,7 +9,7 @@ export default function Master() {
                 <NavBar />
                 <Outlet />
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

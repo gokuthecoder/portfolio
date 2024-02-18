@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import Footer from './Footer';
 
 export default function Post() {
 
@@ -42,7 +43,7 @@ export default function Post() {
             image_url: 'https://i.imgur.com/zQPEWQv.png',
             repo_url: 'https://github.com/gokuthecoder/portfolio',
             demo_url: 'https://netlify',
-            description: "It highlights my professional journey and accomplishments, offering a glimpse into my capabilities and achievements."
+            description: "This is portfolio website, showcasing about projects and me as a budding websites."
         },
     ];
 
@@ -55,7 +56,7 @@ export default function Post() {
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
-                                    height="140"
+                                    // height="140"
                                     image={e.image_url}
                                     alt="green iguana"
                                 />
@@ -77,6 +78,7 @@ export default function Post() {
                     ))
                 }
             </div>
+            <Footer />
         </>
     );
 }
