@@ -37,6 +37,13 @@ export default function Post() {
             demo_url: 'https://netlify',
             description: "Forum web-applicatication, user able to add post and see post, frontend is on way.."
         },
+        {
+            title: 'Forum web application',
+            image_url: 'https://i.imgur.com/zQPEWQv.png',
+            repo_url: 'https://github.com/gokuthecoder/forum_web_application',
+            demo_url: 'https://netlify',
+            description: "Portfolio websitewebsitewebsitewebsitewebsitewebsitewebsitewebsitewebsitewebsitewebsite "
+        },
     ];
 
     return (
