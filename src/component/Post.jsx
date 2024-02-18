@@ -24,18 +24,18 @@ export default function Post() {
             description: "Job portal web application admin add job post , job seeker apply job"
         },
         {
-            title: 'Caption Bot',
-            image_url: 'https://i.ibb.co/JRg3gjS/mqdefault.jpg',
-            repo_url: 'https://github.com/gokuthecoder/Job_scout',
+            title: 'Movies Downloading website',
+            image_url: 'https://i.imgur.com/ruSrQMv.png',
+            repo_url: 'https://github.com/gokuthecoder/reelflix',
             demo_url: 'https://netlify',
-            description: "This Caption Bot easy project ,add caption in any file, caption is file name"
+            description: "my deaming future project, from my college, i add much feature in thi website and automation"
         },
         {
             title: 'Forum web application',
             image_url: 'https://i.imgur.com/ZH5ZDn6.png',
             repo_url: 'https://github.com/gokuthecoder/forum_web_application',
             demo_url: 'https://netlify',
-            description: "Forum web-applicatication, user able to add post and see post"
+            description: "Forum web-applicatication, user able to add post and see post, frontend is on way.."
         },
     ];
 
